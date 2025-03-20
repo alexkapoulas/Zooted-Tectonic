@@ -5,7 +5,7 @@
     "argument1": -0.2,
     "argument2": {
       "type": "minecraft:mul",
-      "argument1": "tectonic:overworld/wackiness",
+      "argument1": "tectonic:overworld/wackiness_clamped",
       "argument2": {
         "type": "minecraft:add",
         "argument1": 0.2,
@@ -17,7 +17,7 @@
     "type": "minecraft:add",
     "argument1": {
       "type": "minecraft:mul",
-      "argument1": "tectonic:overworld/wackiness",
+      "argument1": "tectonic:overworld/wackiness_clamped",
       "argument2": "minecraft:overworld/base_3d_noise"
     },
     "argument2": {
